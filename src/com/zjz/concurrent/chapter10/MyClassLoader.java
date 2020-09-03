@@ -33,11 +33,6 @@ public class MyClassLoader extends ClassLoader {
         return this.defineClass(name, classBytes, 0, classBytes.length);
     }
 
-    @Override
-    protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException {
-        return super.loadClass(name, resolve);
-    }
-
     /**
      * 将class文件读入内存
      *
