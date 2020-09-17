@@ -9,7 +9,7 @@ public class CheckSingleTon {
     Socket socket;
 
     public CheckSingleTon() {
-        this.connection=;
+//        this.connection=;
         this.socket=new Socket();
     }
 

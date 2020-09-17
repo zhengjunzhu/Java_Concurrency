@@ -5,7 +5,7 @@ public class EnumSingleTon {
         INSTANCE;
         private EnumSingleTon instance;
 
-        EnumHolder {
+        EnumHolder() {
             this.instance = new EnumSingleTon();
         }
         private EnumSingleTon getSingleton(){
